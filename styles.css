@@ -1,0 +1,17 @@
+body> div :first-child{
+color: pink;
+}
+p[id=greycol]{
+    color: gray;
+}
+div.text-box > div > p{
+    color: red;
+}
+
+.yellow{
+color: yellow;
+}
+
+.text-box :nth-child(7){
+    color: green;
+}
